@@ -53,7 +53,8 @@ nav ul li a:hover {
 section {
     padding: 2rem;
     text-align: center;
-    background-color: #f0f0f0; /* Light gray background for content sections */
+    background-color: #a9a9a9; /* Much darker gray background for content sections */
+    border: 2px solid #f00; /* Red border for the content sections */
 }
 
 .assignment, .note {
@@ -63,5 +64,3 @@ section {
 }
 
 iframe {
-    border: 1px solid #000;
-}
