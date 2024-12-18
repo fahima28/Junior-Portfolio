@@ -44,10 +44,13 @@ nav ul li a {
     color: #fff; /* White navigation links */
     text-decoration: none;
     padding: 0.5rem 1rem;
+    border-radius: 5px; /* Add rounded corners */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 nav ul li a:hover {
     background-color: #f00; /* Red background on hover */
+    transform: scale(1.1); /* Slightly enlarge the navigation link on hover */
 }
 
 section {
