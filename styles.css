@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #696969; /* Even darker gray background for the whole page */
+    background-color: #2e2e2e; /* Dark gray background for the whole page */
     color: #fff;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #000;
-    color: #fff;
+    background-color: #000; /* Black header background */
+    color: #fff; /* White header text */
     padding: 1rem 0;
     text-align: center;
 }
@@ -32,7 +32,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #333; /* Dark gray navigation bar */
     padding: 0.5rem 0;
 }
 
@@ -41,20 +41,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fff; /* White navigation links */
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 nav ul li a:hover {
-    background-color: #f00;
+    background-color: #f00; /* Red background on hover */
 }
 
 section {
     padding: 2rem;
     text-align: center;
-    background-color: #a9a9a9; /* Dark gray background for content sections */
-    border: 2px solid #f00; /* Red border for the content sections */
+    background-color: #3e3e3e; /* Slightly lighter dark gray for content sections */
+    border: 2px solid #f00; /* Red border for content sections */
     margin-bottom: 1rem;
 }
 
@@ -64,7 +64,7 @@ section {
     margin: 1rem auto; /* Center the sections */
     border-radius: 10px; /* Rounded corners */
     transition: transform 0.3s; /* Smooth transition for hover effect */
-    background-color: #d9d9d9; /* Light background to contrast with page */
+    background-color: #4e4e4e; /* Even lighter dark gray for individual sections */
     width: 75%; /* Reduce width by 25% */
 }
 
