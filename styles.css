@@ -61,10 +61,11 @@ section {
 .assignment, .note {
     border: 1px solid #fff; /* Slightly less wide white border */
     padding: 1rem;
-    margin: 1rem 0;
+    margin: 1rem auto; /* Center the sections */
     border-radius: 10px; /* Rounded corners */
     transition: transform 0.3s; /* Smooth transition for hover effect */
     background-color: #d9d9d9; /* Light background to contrast with page */
+    width: 75%; /* Reduce width by 25% */
 }
 
 .assignment:hover, .note:hover {
