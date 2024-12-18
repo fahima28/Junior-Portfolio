@@ -45,13 +45,23 @@ nav ul li a {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 5px; /* Add rounded corners */
-    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+@keyframes popout {
+    0% {
+        transform: scale(1);
+        box-shadow: none;
+    }
+    100% {
+        transform: scale(1.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
 }
 
 nav ul li a:hover {
     background-color: #f00; /* Red background on hover */
-    transform: scale(1.1); /* Slightly enlarge the navigation link on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for popping out effect */
+    animation: popout 0.3s forwards; /* Add popout animation on hover */
 }
 
 section {
