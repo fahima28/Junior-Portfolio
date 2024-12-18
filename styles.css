@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #000;
+    background-color: #696969; /* Even darker gray background for the whole page */
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -53,14 +53,23 @@ nav ul li a:hover {
 section {
     padding: 2rem;
     text-align: center;
-    background-color: #a9a9a9; /* Much darker gray background for content sections */
+    background-color: #a9a9a9; /* Dark gray background for content sections */
     border: 2px solid #f00; /* Red border for the content sections */
+    margin-bottom: 1rem;
 }
 
 .assignment, .note {
-    border: 1px solid #ccc;
+    border: 2px solid #fff; /* White border for each section */
     padding: 1rem;
     margin: 1rem 0;
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.assignment:hover, .note:hover {
+    transform: scale(1.05); /* Slightly enlarge the section on hover */
 }
 
 iframe {
+    border: 1px solid #000;
+}
