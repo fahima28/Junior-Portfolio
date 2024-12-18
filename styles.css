@@ -73,11 +73,11 @@ section {
 }
 
 .assignment h3, .note h3 {
-    color: #000; /* Black color for titles */
+    color: #fff; /* White color for titles */
 }
 
 .assignment p, .note p {
-    color: #000; /* Black color for descriptions */
+    color: #fff; /* White color for descriptions */
 }
 
 iframe {
