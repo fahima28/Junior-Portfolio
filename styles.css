@@ -87,12 +87,3 @@ section {
 iframe {
     border: 1px solid #000;
 }
-
-/* Add these new styles for the profile image */
-.profile-image {
-    display: block;
-    margin: 0 auto; /* Center the image */
-    width: 50%; /* Medium size, adjust as needed */
-    max-width: 300px; /* Ensure the image doesn't get too large */
-    border-radius: 10px; /* Optional: Add rounded corners */
-}
